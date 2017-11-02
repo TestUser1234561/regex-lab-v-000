@@ -12,7 +12,9 @@ end
 
 def words_five_letters_long(text)
   value = text.scan(/[a-z]/i)
-  if(value.length == 4) return true end
+  if(value.length == 4) 
+    return true 
+  end
   false
 end
 
